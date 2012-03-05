@@ -1,13 +1,15 @@
+## Overview
 
-------------------------------------------------------------------------------------------------    
-  This is a C++ program to display video captured from the web-cam
-  at the speed of 27 microseconds onto a created window screen  named Video
+This is a C++ program to display video captured from the web-cam
 
-  Whenever the '↑'(up arrow button) is pressed,a new image is saved in the working directory with name 'photo.jpg'
+Whenever the '↑'(up arrow button) is pressed, an image is saved in the working directory with name 'my-photo.jpg'
 
-   Compile the Program 
-      g++ -o my_cheese my_cheese.c -I/usr/include/opencv  -lcv -lhighgui -lcvaux -lml -lcxcore  
-   
-   Run the executable using 
-      ./my_cheese
--------------------------------------------------------------------------------------------------
+
+## Usage
+#### Compile the Program 
+    
+	$ g++ -o <my_executable> my_cheese.c -I/usr/include/opencv  -lcv -lhighgui -lcvaux -lml -lcxcore  
+ 
+#### Run the executable using 
+      
+	$ ./<my_executable>
